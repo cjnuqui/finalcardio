@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5D6697">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pngbg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="342dp"
+            android:layout_height="203dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/btnCal"
+            android:layout_width="283dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="65sp"
+            android:layout_marginTop="60sp"
+            android:backgroundTint="#FC557C"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:text="Calculate Heart Rate"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnSugg"
+            android:layout_width="283dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="65sp"
+            android:layout_marginTop="20sp"
+            android:backgroundTint="#FC557C"
+            android:gravity="center"
+            android:text="High and Low Heart Rate"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnRec"
+            android:layout_width="283dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="65sp"
+            android:layout_marginTop="20sp"
+            android:backgroundTint="#FC557C"
+            android:gravity="center"
+            android:text="Record"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</RelativeLayout>
